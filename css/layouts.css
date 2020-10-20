@@ -1,0 +1,28 @@
+
+div img{
+    width: 75%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+div h1{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div p{
+    padding: 20px;
+    font-size: 18px;
+    width: 75%;
+    margin: auto;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
