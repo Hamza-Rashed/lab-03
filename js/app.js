@@ -39,7 +39,7 @@ function firstPage() {
   all_arr = [];
   $('#select').empty();
   $('section').empty();
-  $.ajax('../../lab-03/lab-03/data/page-1.json', ajaxSettings).then((data) => {
+  $.ajax('../lab-03/data/page-1.json', ajaxSettings).then((data) => {
     data.forEach(all_pets => {
       let pet = new Pets(all_pets);
       pet.render();
@@ -53,7 +53,7 @@ $('.page2').click(function () {
   all_arr = [];
   $('#select').empty();
   $('section').empty();
-  $.ajax('../../lab-03/lab-03/data/page-2.json', ajaxSettings).then((data2) => {
+  $.ajax('../lab-03/data/page-2.json', ajaxSettings).then((data2) => {
     data2.forEach(all_pets2 => {
       let pet2 = new Pets(all_pets2);
       pet2.render();
